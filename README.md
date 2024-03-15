@@ -1,5 +1,5 @@
 # go-fundamentals
-The fundamentals of the Go programming language
+The fundamentals of the Go programming language. 
 
 1) <a href =""> Variables and Constants </a>
 2)
