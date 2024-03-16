@@ -35,11 +35,14 @@ func main() {
 
 	fmt.Println(carNameOne, carNameTwo, carNameThree, carModelOne, carModelTwo, carModelThree)
 
-	// CONSTANTS
-
-		const (
-		galleryYear int = 2014
-		galleryCity     = "New York"
-	)
-
-}
+	const carGallery string = "Gallery York"
+		// Trying to change it like carGallery = "Gallery Miami" would raise an error
+	
+		//CONSTANTS
+	
+		// Constant can also be declared in groups like this
+	const (
+	galleryYear int = 2014
+	galleryCity     = "New York"
+		)
+	}
