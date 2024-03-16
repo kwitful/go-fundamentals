@@ -37,4 +37,9 @@ func main() {
 
 	// CONSTANTS
 
+		const (
+		galleryYear int = 2014
+		galleryCity     = "New York"
+	)
+
 }
