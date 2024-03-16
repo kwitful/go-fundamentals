@@ -23,7 +23,7 @@ var carModel int
  carModel = 1970  // You can change it later on
 ```
 
-__It is possible to declare and initialize variables at the same time. Note that variables are changeable after they are declared. This why they are called variables__
+__It is possible to declare and initialize variables at the same time. Note that values of variable are changeable after they are declared. This why they are called variables__
 ```go
 
 var carCity string = "New York" // We have declared a variable carCity and initialized it with the value "New York"
