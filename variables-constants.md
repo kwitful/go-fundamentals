@@ -10,7 +10,7 @@ var carBrand string
 ```
 
 
-__This variable is not initialized (we did not assign a value to it with the = sign), its value is an empty string""__
+__This variable is not initialized (we did not assign a value to it with the = operator), its value is an empty string""__
 
 ```go
 var carModel int
@@ -23,11 +23,11 @@ var carModel int
  carModel = 1970  // You can change it later on
 ```
 
-__It is possible to declare and initialize variables at the same time__
+__It is possible to declare and initialize variables at the same time. Note that variables are changeable after they are declared. This why they are called variables__
 ```go
 
 var carCity string = "New York" // We have declared a variable carCity and initialized it with the value "New York"
-carCity = "Boston"              // We can change it to something else later on with the = sign
+carCity = "Boston"              // We can change it to something else later on with the = operator
 ```
 
 __It is possible to declare multiple variables at once like this:__
