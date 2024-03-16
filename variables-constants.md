@@ -5,9 +5,9 @@
 # VARIABLES
 
 ### Variables are declared as follows:
-
+	'''go
 	 // var keyword, variable name, variable type
-	var carBrand string 
+	var carBrand string'''
 __This variable is not initialized (we did not assign a value to it with the = sign), its value is an empty string""__
 
 	var carModel int  
