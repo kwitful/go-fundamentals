@@ -6,7 +6,7 @@ func main() {
 	// VARIABLES
 
 	// var keyword, variable name, variable type
-	var carBrand string // This variable is not initialized (we did not assign a value to it with the = sign), its value is an empty string ""
+	var carBrand string // This variable is not initialized (we did not assign a value to it with the = operator), its value is an empty string ""
 	carBrand = "Mustang"
 
 	var carModel int // This variable is also not initialized its value is 0
@@ -15,7 +15,7 @@ func main() {
 	// It is possible to declare and initialize variables at the same time
 
 	var carCity string = "New York" // We have declared a variable carCity and initialized it with the value "New York"
-	carCity = "Boston"              // We can change it to something else later on with the = sign
+	carCity = "Boston"              // We can change it to something else later on with the = operator
 
 	fmt.Println(carBrand, carModel, carCity)
 
