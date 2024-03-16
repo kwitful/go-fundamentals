@@ -49,3 +49,16 @@ var (
 	carModelThree int    = 2018
 	)
 ```
+
+
+# CONSTANTS
+__Unlike variables, values of constants cannot be changed after declaration. Constants are declared as follows:__
+ ```go
+
+const carGallery string = "Gallery York"
+// Trying to change it like carGallery = "Gallery Miami" would raise an error
+
+```
+
+
+
