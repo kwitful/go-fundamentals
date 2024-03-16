@@ -15,7 +15,7 @@ __This variable is not initialized (we did not assign a value to it with the = s
  
  	carModel = 1970  // You can change it later on
 
-__ It is possible to declare and initialize variables at the same time__
+__It is possible to declare and initialize variables at the same time__
 
 	var carCity string = "New York" // We have declared a variable carCity and initialized it with the value "New York"
 	carCity = "Boston"              // We can change it to something else later on with the = sign
