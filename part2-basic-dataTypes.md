@@ -16,6 +16,7 @@ var isInStock = false
 
 There are many integer types (like uint8, int32 etc.). This topic will be explained further in a later part. For now, we will use only int32 and int64. The main difference between them is that int64 has more memory space and thus can be used to hold larger values.
 
+
 ```Go
 var carNumber int32 = 976545655
 var carLarger int64 = 9650846909004596
