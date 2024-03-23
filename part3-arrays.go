@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+
 func main() {
 
 	// ARRAY DECLARATION AND INITIALIZATION
@@ -25,4 +26,5 @@ func main() {
 	fmt.Println(arrTwo[0])   // This will print out the first element of arrTwo
 	fmt.Println(arrThree[2]) // This will print out the third element of arrThree
 
+	
 }
