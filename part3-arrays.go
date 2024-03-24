@@ -26,5 +26,11 @@ func main() {
 	fmt.Println(arrTwo[0])   // This will print out the first element of arrTwo
 	fmt.Println(arrThree[2]) // This will print out the third element of arrThree
 
+	// Changing elements through indices
+	var myArr = [3]string{"John", "James", "Henry"}
+	myArr[0] = "Michael" // Change the first element to "Michael"
+	fmt.Println(myArr)
+
+
 	
 }
