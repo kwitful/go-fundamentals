@@ -28,3 +28,13 @@ You can access the index of an array element. Note that Go, like many other prog
 	fmt.Println(arrTwo[0])   // This will print out the first element of arrTwo
 	fmt.Println(arrThree[2]) // This will print out the third element of arrThree
 ```
+
+### Changing Array Elements (through indices)
+You can change the elements of the array by accessing them through their index number and assigning a new value, as follows:
+```Go
+// Changing elements through indices
+	var myArr = [3]string{"John", "James", "Henry"}
+	myArr[0] = "Michael" // Change the first element to "Michael"
+	fmt.Println(myArr)
+
+```
