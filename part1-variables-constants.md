@@ -49,9 +49,15 @@ var (
 	carModelThree int    = 2018
 	)
 ```
+__You can quickly declare and initialize variables. Note that this works only inside functions (remember that the _main_ function is also a function)__
 
+```Go
+// Short Variable Declaration with Initialization
+	newCar := "Ford Fiesta" // The type is inferred from the initialized value
+	fmt.Println(newCar)
+```
 
-# CONSTANTS
+## CONSTANTS
 __Unlike variables, values of constants cannot be changed after declaration. Constants are declared as follows:__
  ```go
 
