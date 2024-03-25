@@ -13,4 +13,7 @@ A slice is a data structure in Go. It is used to work with sequences of data. It
 2) They directly modify the array on which they are based. This can be a problem if you aren't careful
 
 
+### Declaring Slices
+
+
    
