@@ -1,5 +1,6 @@
 # SLICES IN GO
 
+
 ### What is a slice?
 
 A slice is a data structure in Go. It is used to work with sequences of data. It is similar to an array with certain, profound advantages and disadvantages:
