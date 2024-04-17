@@ -23,5 +23,24 @@ If else statements allow you to take actions based on conditions of your choice:
 	}
 ```
 
+### Switch
+Switches introduce a practical way to act on condition:
+
+```Go
+	// Switch
+	var carCity string = "New York"
+
+	switch carCity {
+	case "New York":
+		fmt.Println("The car is in USA")
+
+	case "London":
+		fmt.Println("The car is in UK")
+
+	case "Istanbul":
+		fmt.Println("The car is in Turkiye")
+
+	}
+```
 
 
