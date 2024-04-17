@@ -5,6 +5,7 @@ The fundamentals of the Go programming language.
 2) <a href ="part2-basic-dataTypes.md"> Basic Data Types </a>
 3) <a href ="part3-arrays.md"> Arrays </a>
 4) <a href ="part4slices.md"> Slices </a>
+5) <a href ="part4slices.md"> Control Flows </a>
 
 
 
