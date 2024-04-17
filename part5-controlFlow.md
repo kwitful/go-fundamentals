@@ -43,4 +43,23 @@ Switches introduce a practical way to act on condition:
 	}
 ```
 
+### Iterating Over Elements
+You can use a _for_ loop to iterate over the elements of a collection (like a slice):
+
+```Go
+	// Iterating over items
+
+	carStore := []string{"Boosterz", "Exhauster", "Greaser"}
+
+	// Formatted printing with index
+	for index, value := range carStore {
+		fmt.Printf("The index of the store is %q and its name is %q", index, value)
+	}
+
+	// Formatted printing without index
+	for _, value := range carStore {
+		fmt.Printf("\nThe name of the store is %q", value)
+	}
+```
+
 
